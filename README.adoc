@@ -1,0 +1,19 @@
+= Backup and restore
+
+Clonezilla can be used to **backup** and **restore** a physical/virtual machine, migrate a physical machine to a virtual machine (P_to_V) and vice versa (V_to_P) and it can be used to massively deploy a number of machines based on an image. 
+
+Read the **Clonezilla.pptx** (the other files are for reference). 
+
+In this lab you will:
+
+* make a backup of your Windows 10 machine system disk (C:) to an image.
+* make a clone of your Windows 10 machine using this created image.
+* use the Clonezilla Lite Server to deploy two VMs using the created image.
+
+== Learning goals
+
+* You can download the Clonezilla Live CD/DVD ISO.
+* You can boot an existing VM with the Clonezilla Live CD/DVD ISO as boot image. 
+* You can create an image of the system disk of a VM.
+* You can restore the system disk of a VM using an earlier created image. 
+* You can create a clone of a VM using an image created with Clonezilla Live CD/DVD.
